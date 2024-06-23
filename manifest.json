@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "My KMB",
+    "version": "1.0",
+    "description": "A Chrome extension that fetches data from an API.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "back.jpg"
+      }
+    },
+    "permissions": [
+      "activeTab",
+      "https://data.etabus.gov.hk/v1/transport/kmb/route/",
+      "https://data.etabus.gov.hk/v1/transport/kmb/route-stop",
+      "https://data.etabus.gov.hk/v1/transport/kmb/stop/",
+      "https://data.etabus.gov.hk/v1/transport/kmb/route-eta/"
+    ]
+  }
